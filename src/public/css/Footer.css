@@ -1,0 +1,15 @@
+#footer {
+    text-align: center;
+    background-color: #343a40!important;
+    color: white;
+    height: 10vh;
+}
+
+#footer a[href] {
+    color: #00c8e8;
+}
+
+#footer span {
+    position: relative;
+    top: 50%;
+}

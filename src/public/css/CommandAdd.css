@@ -1,0 +1,20 @@
+#command-add label{
+    color:white;
+}
+
+#command-add input,
+#command-add select{
+    border-radius: 0;
+}
+
+#command-add .btn-outline-dark{
+    background: white;
+    color: #343a40;
+    border-radius: 0;
+    float: right;
+    margin-left: 15px;
+}
+#command-add .btn-outline-dark:hover {
+    background: #060707;
+    color:white;
+}
