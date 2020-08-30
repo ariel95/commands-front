@@ -1,3 +1,10 @@
 #header {
     height: 10vh;
 }
+
+#header .navbar-nav {
+    flex-direction: row;
+}
+#header .navbar-nav a{
+    margin-left: 15px;
+}

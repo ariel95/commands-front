@@ -12,7 +12,15 @@ const Header = () => {
     return (
         <Navbar id="header" collapseOnSelect expand="lg" bg="dark" variant="dark">
             <Navbar.Brand href="/">Commands</Navbar.Brand>
-        </Navbar> 
+            <Nav className="mr-auto">
+                    
+                </Nav>
+                <Nav>
+                    <Nav.Link href="/">Commands</Nav.Link>
+                    <Nav.Link href="/addCommand">Add command</Nav.Link>
+                </Nav>
+            
+        </Navbar>
     )
 }
 
